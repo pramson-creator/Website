@@ -3,46 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learn Computer Science and IT Skills</title>
+  <title>Tech Pathways | Learn IT, Cybersecurity & Computer Science Cheap or Free</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <header>
-    <h1>Learn Computer Science & IT Skills</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">What is CS</a></li>
-        <li><a href="#">IT & Cybersecurity</a></li>
-        <li><a href="#">Learn to Code</a></li>
-        <li><a href="#">Resources</a></li>
-      </ul>
-    </nav>
+    <div class="wrapper">
+      <div class="logo">
+        Tech Pathways <span>Guide</span>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="it-cybersecurity.html">IT &amp; Cybersecurity</a>
+        <a href="computer-science.html">Computer Science</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Welcome!</h2>
+  <main class="wrapper">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Learn IT, Cybersecurity &amp; Computer Science for Free or Very Cheap</h1>
       <p>
-        This website helps anyone learn Computer Science, IT, and Cybersecurity
-        using free or low-cost resources. Explore each section to start learning
-        and improving your skills.
+        This website is a simple roadmap for beginners who want to break into tech without going into debt.
+        It focuses on three main tracks:
+        <span class="highlight">IT/help desk, cybersecurity, and computer science.</span>
+        Each path includes explanations, starter steps, and curated free or low-cost resources.
       </p>
-      <img src="computer-learning.jpg" alt="Learning computer skills" width="500">
+      <div class="tag-list">
+        <span class="tag">Beginner friendly</span>
+        <span class="tag">Budget focused</span>
+        <span class="tag">Self-paced learning</span>
+      </div>
     </section>
 
-    <section>
-      <h3>Start Learning</h3>
-      <p>
-        Click the navigation links above to explore topics like programming,
-        cybersecurity, and software development.
-      </p>
+    <section aria-labelledby="paths-heading">
+      <h2 id="paths-heading">Choose Your Tech Path</h2>
+      <div class="grid grid-3">
+        <article class="card">
+          <h3>IT &amp; Help Desk</h3>
+          <p>Perfect if you like solving technical problems for people and working with devices, networks, and basic troubleshooting.</p>
+          <ul>
+            <li>Help desk support</li>
+            <li>Desktop / laptop support</li>
+            <li>Entry-level IT technician</li>
+          </ul>
+          <p class="video-note">
+            Planned video: quick walkthrough of “What an IT/help desk job looks like in real life.”
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Cybersecurity</h3>
+          <p>Focuses on protecting systems, networks, and data from attacks. Good if you enjoy puzzles, problem-solving, and thinking like an attacker.</p>
+          <ul>
+            <li>Security analyst</li>
+            <li>Blue-team / SOC roles</li>
+            <li>Entry-level cyber technician</li>
+          </ul>
+          <p class="video-note">
+            Planned video: “How to start cybersecurity with free labs and practice sites.”
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Computer Science</h3>
+          <p>Deeper focus on programming, algorithms, and theory. Great if you want to build software or eventually complete a CS degree.</p>
+          <ul>
+            <li>Software developer (entry level)</li>
+            <li>Web or app development</li>
+            <li>Prep for CS programs</li>
+          </ul>
+          <p class="video-note">
+            Planned video: “How to use free CS courses without getting overwhelmed.”
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="getting-started-heading">
+      <h2 id="getting-started-heading">Getting Started This Week (for $0)</h2>
+      <div class="grid grid-2">
+        <article class="card">
+          <h3>Step 1: Pick a Path</h3>
+          <p>
+            Visit each path page using the navigation at the top. Read the short descriptions and decide which one feels most interesting:
+            helping people with tech (IT), defending systems (cybersecurity), or building software (computer science).
+          </p>
+        </article>
+        <article class="card">
+          <h3>Step 2: Choose 1–2 Resources</h3>
+          <p>
+            Don’t try to do everything at once. Pick one main resource and one backup. Commit to studying a small amount every day
+            (even 20–30 minutes can make progress over time).
+          </p>
+        </article>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Patricia Ramson | Learn CS & IT Skills</p>
+    <div class="wrapper">
+      <p>
+        Built as a student project to help people learn tech skills on a budget.
+      </p>
+      <p>
+        Code hosted on
+        <a href="https://github.com/pramson-creator/Website" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>.
+      </p>
+    </div>
   </footer>
 </body>
 </html>
+
+
