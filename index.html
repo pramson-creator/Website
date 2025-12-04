@@ -1,120 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech Pathways | Learn IT, Cybersecurity & Computer Science Cheap or Free</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Pathways | Learn IT, Cybersecurity &amp; Computer Science</title>
+
+  <meta name="description" content="Beginner-friendly site that explains IT, cybersecurity, and computer science paths and shares resources for getting started." />
+  <meta name="keywords" content="IT, cybersecurity, computer science, learning, tech careers, coding, networks" />
+
+  <link rel="stylesheet" href="style.css" />
+  <!-- Optional: Google Analytics script can go here later -->
 </head>
 <body>
   <header>
-    <div class="wrapper">
-      <div class="logo">
-        Tech Pathways <span>Guide</span>
-      </div>
-      <nav aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="it-cybersecurity.html">IT &amp; Cybersecurity</a>
-        <a href="computer-science.html">Computer Science</a>
-      </nav>
-    </div>
+    <div class="logo">Tech Pathways</div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="computer-science.html">Computer Science</a></li>
+        <li><a href="it-cybersecurity.html">IT &amp; Cybersecurity</a></li>
+        <li><a href="learning-resources.html">Resources &amp; Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main class="wrapper">
-    <section class="hero" aria-labelledby="hero-title">
-      <h1 id="hero-title">Learn IT, Cybersecurity &amp; Computer Science for Free or Very Cheap</h1>
-      <p>
-        This website is a simple roadmap for beginners who want to break into tech without going into debt.
-        It focuses on three main tracks:
-        <span class="highlight">IT/help desk, cybersecurity, and computer science.</span>
-        Each path includes explanations, starter steps, and curated free or low-cost resources.
-      </p>
-      <div class="tag-list">
-        <span class="tag">Beginner friendly</span>
-        <span class="tag">Budget focused</span>
-        <span class="tag">Self-paced learning</span>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Start Your Journey into IT, Cybersecurity &amp; Computer Science</h1>
+        <p>
+          This website is a simple guide for people who are curious about technology
+          but are not sure where to begin. It introduces different paths in IT,
+          cybersecurity, and computer science and shares places where you can keep learning.
+        </p>
+        <a class="btn" href="computer-science.html">Explore Tech Paths</a>
+      </div>
+      <div class="hero-media">
+        <img
+          src="images/hero-learning.jpg"
+          alt="Student working on a laptop with code on the screen"
+        />
       </div>
     </section>
 
-    <section aria-labelledby="paths-heading">
-      <h2 id="paths-heading">Choose Your Tech Path</h2>
-      <div class="grid grid-3">
-        <article class="card">
-          <h3>IT &amp; Help Desk</h3>
-          <p>Perfect if you like solving technical problems for people and working with devices, networks, and basic troubleshooting.</p>
-          <ul>
-            <li>Help desk support</li>
-            <li>Desktop / laptop support</li>
-            <li>Entry-level IT technician</li>
-          </ul>
-          <p class="video-note">
-            Planned video: quick walkthrough of “What an IT/help desk job looks like in real life.”
-          </p>
-        </article>
+    <section class="section">
+      <h2>Short Intro Video</h2>
+      <p>
+        This section is for a short video related to technology or learning. The video
+        can be a small clip of a person using a computer or a simple tech scene.
+      </p>
 
-        <article class="card">
-          <h3>Cybersecurity</h3>
-          <p>Focuses on protecting systems, networks, and data from attacks. Good if you enjoy puzzles, problem-solving, and thinking like an attacker.</p>
-          <ul>
-            <li>Security analyst</li>
-            <li>Blue-team / SOC roles</li>
-            <li>Entry-level cyber technician</li>
-          </ul>
-          <p class="video-note">
-            Planned video: “How to start cybersecurity with free labs and practice sites.”
-          </p>
-        </article>
+      <!-- When you have a video file, place it in media/intro-tech.mp4 -->
+      <video controls class="responsive-video">
+        <source src="media/intro-tech.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
+      <p class="small-text">
+        Note: The video file should be saved as <code>media/intro-tech.mp4</code>
+        inside your project folder.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>What You Can Learn About Here</h2>
+      <div class="card-grid">
         <article class="card">
           <h3>Computer Science</h3>
-          <p>Deeper focus on programming, algorithms, and theory. Great if you want to build software or eventually complete a CS degree.</p>
-          <ul>
-            <li>Software developer (entry level)</li>
-            <li>Web or app development</li>
-            <li>Prep for CS programs</li>
-          </ul>
-          <p class="video-note">
-            Planned video: “How to use free CS courses without getting overwhelmed.”
+          <p>
+            Learn how programming, algorithms, and problem solving fit into real
+            software development and tech careers.
           </p>
+          <a href="computer-science.html" class="text-link">Visit Computer Science page →</a>
+        </article>
+
+        <article class="card">
+          <h3>IT &amp; Cybersecurity</h3>
+          <p>
+            Read about IT support, networking basics, and how cybersecurity protects
+            systems from attacks.
+          </p>
+          <a href="it-cybersecurity.html" class="text-link">Visit IT &amp; Cybersecurity page →</a>
+        </article>
+
+        <article class="card">
+          <h3>Learning Resources</h3>
+          <p>
+            Find free and low-cost learning resources and fill out a simple form to
+            think about your learning goals.
+          </p>
+          <a href="learning-resources.html" class="text-link">Visit Resources &amp; Contact page →</a>
         </article>
       </div>
     </section>
 
-    <section aria-labelledby="getting-started-heading">
-      <h2 id="getting-started-heading">Getting Started This Week (for $0)</h2>
-      <div class="grid grid-2">
-        <article class="card">
-          <h3>Step 1: Pick a Path</h3>
-          <p>
-            Visit each path page using the navigation at the top. Read the short descriptions and decide which one feels most interesting:
-            helping people with tech (IT), defending systems (cybersecurity), or building software (computer science).
-          </p>
-        </article>
-        <article class="card">
-          <h3>Step 2: Choose 1–2 Resources</h3>
-          <p>
-            Don’t try to do everything at once. Pick one main resource and one backup. Commit to studying a small amount every day
-            (even 20–30 minutes can make progress over time).
-          </p>
-        </article>
-      </div>
+    <section class="section">
+      <h2>Example External Learning Sites</h2>
+      <p>These are a few trusted places to start learning more about technology:</p>
+      <ul>
+        <li>
+          <a href="https://www.freecodecamp.org" target="_blank" rel="noopener noreferrer">
+            freeCodeCamp
+          </a>
+          – Practice HTML, CSS, and JavaScript directly in your browser.
+        </li>
+        <li>
+          <a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer">
+            Microsoft Learn
+          </a>
+          – Guided learning paths for IT, cloud, and security topics.
+        </li>
+        <li>
+          <a href="https://www.cybrary.it" target="_blank" rel="noopener noreferrer">
+            Cybrary
+          </a>
+          – Courses focused on cybersecurity and IT fundamentals.
+        </li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    <div class="wrapper">
-      <p>
-        Built as a student project to help people learn tech skills on a budget.
-      </p>
-      <p>
-        Code hosted on
-        <a href="https://github.com/pramson-creator/Website" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>.
-      </p>
-    </div>
+    <p>© 2025 Tech Pathways | Beginner-friendly IT, Cybersecurity &amp; CS Guide</p>
+    <p>
+      Contact:
+      <a href="mailto:youremail@asu.edu">youremail@asu.edu</a>
+    </p>
   </footer>
 </body>
 </html>
+
 
 
