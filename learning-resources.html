@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learning Resources &amp; Contact | Tech Pathways</title>
+
+  <meta name="description" content="Free and low-cost resources for IT, cybersecurity, and computer science plus a simple contact-style form." />
+  <meta name="keywords" content="IT resources, cybersecurity resources, computer science learning, contact form" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Tech Pathways</div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="it-paths.html">IT &amp; CS Paths</a></li>
+        <li><a href="cybersecurity.html">Cybersecurity</a></li>
+        <li><a href="learning-resources.html" class="active">Resources &amp; Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h1>Learning Resources &amp; Contact</h1>
+      <p>
+        These resources are a good place to start learning the basics. The form below is set up
+        like a simple contact form and is meant to practice form coding.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Recommended Online Resources</h2>
+      <ul>
+        <li>
+          <strong>Microsoft Learn:</strong>
+          <a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer">
+            https://learn.microsoft.com
+          </a>
+        </li>
+        <li>
+          <strong>Cybrary:</strong>
+          <a href="https://www.cybrary.it" target="_blank" rel="noopener noreferrer">
+            https://www.cybrary.it
+          </a>
+        </li>
+        <li>
+          <strong>freeCodeCamp:</strong>
+          <a href="https://www.freecodecamp.org" target="_blank" rel="noopener noreferrer">
+            https://www.freecodecamp.org
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Simple Contact-Style Form</h2>
+      <p>
+        This form collects basic background information. It uses <code>action="#”</code> as
+        required for this class and does not send data to a server.
+      </p>
+
+      <form action="#" method="post" class="contact-form">
+        <fieldset>
+          <legend>Your Background</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="experience">Current experience level:</label>
+          <select id="experience" name="experience">
+            <option value="new">Brand new to tech</option>
+            <option value="some">Some experience with computers</option>
+            <option value="comfortable">Comfortable with technology</option>
+          </select>
+
+          <label for="interest">Main area of interest:</label>
+          <select id="interest" name="interest">
+            <option value="it-support">IT Support</option>
+            <option value="cybersecurity">Cybersecurity</option>
+            <option value="software-development">Software Development</option>
+            <option value="not-sure">Not sure yet</option>
+          </select>
+
+          <label for="goals">Learning goals or questions:</label>
+          <textarea id="goals" name="goals" rows="4"></textarea>
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Tech Pathways</p>
+    <p>
+      Contact email:
+      <a href="mailto:youremail@asu.edu">youremail@asu.edu</a>
+    </p>
+  </footer>
+</body>
+</html>
